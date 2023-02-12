@@ -1,0 +1,87 @@
+.box1{
+    width: 400px;
+    height: 900px;
+    margin: 20px 0px 0px 40px;
+    font-size: 30px;
+}
+
+#ofr{
+    font-size: 25px;
+    list-style: none;
+    
+}
+
+.lm{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+#ofr,li{
+    margin-bottom: 30px;
+}
+#trdli{
+    margin-left: 60px;
+}
+#of1{
+    background-image: url("files/of1.png");
+    background-size: 100%;
+}
+#of2{
+    background-image: url("files/f2.png");
+    background-size: 103%;
+}
+
+#of3{
+    background-image: url("files/f4.png");
+    background-size: 100%;
+    
+}
+#of4{
+    background-image: url("files/fee.png");
+    background-size: 100%;
+}
+
+.ht{
+     font-size: 30px;
+     margin-left: 100px;
+}
+#bnl{
+    list-style:none;
+    font-size: 21px;
+}
+.bs{
+    display: flex;
+    flex-direction: row;
+}
+.bs:hover{
+    transform: translateY(-3px);
+}
+.bnbox:hover{
+    box-shadow: 15px 15px 15px rgba(255, 87, 205, 0.5);
+    cursor: pointer;
+    transition: 150ms;
+}
+
+.bnbox{
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px -0px 5px 20px;
+    background-image: url(files/bg6.png);
+    background-size: 100%;
+
+}
+
+@media screen and (min-width:610px){
+    .box1{
+        margin-left: 550px;
+    }
+
+    .sl{
+        margin-left:100px ;
+    }
+    
+}

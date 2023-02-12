@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starx(services)</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"href="register.css">
+</head>
+<body id="body">
+
+    <!--NAME OF WEBSITE-->
+   <a href="register.html"> <div class="name"><h1 id="star">STAR</h1><h1 id="x">-X</h1> <h3 id="Consultancies">Consultancies</h3></div></a>
+     
+    <!--MENU OF WEBSITE-->
+    <div class="container">
+       <a href="index.html" class="un"> <div class="element">Home</div> </a>
+       <a href="services.html" class="un"> <div class="element" id="service-option">Services</div> </a>
+        <a href="register.html" class="un"> <div class="element" id="register-option">Register</div></a>
+        <a href="about.html" class="un">  <div class="element">About</div></a>
+    </div>
+     
+    <!--HERO-->
+
+    <div id="hero"><p id="rpr"><b>REGISTER</b></p></div>
+
+    <!--FORM-->
+
+    <div id="fom">
+
+        <p id="rg"><b>Register for getting internship</b></p>
+        <hr width="250px" size="3px" color="black">
+        
+        <div id="sf">
+
+        <form id="ofom">
+           <p>Full Name  : <input type="text" name="Fullname" required></p>
+
+            <p>Course :  <select class="sel">
+                <option value=" ">--Select--</option>
+                <option value="bech">BTech</option>
+                <option value="bca">BCA</option>
+                <option value="mca">MCA</option>
+                <option value="bba">BBA</option>
+                <option value="mba">MBA</option>
+                <option value="none">None of these</option>
+            </select></p>
+            
+           <p>Branch : <select class="sel">
+                <option>--Select--</option>
+                <option>CSE</option>
+                <option>CE</option>
+                <option>EE</option>
+                <option>IT</option>
+                <option>ME</option>
+                <option>Finance</option>
+            </select></p>
+
+            <p>
+                Email : <input type="email" name="email" required>
+            </p>
+
+            <p>
+                Phone : <input type="number" name="Phone number" required>
+            </p>
+
+            <p>Gender : Male  <input type="radio" name="gender"> Female  <input type="radio" name="gender"></p>
+
+            
+            <input type="submit" name="submit" id="sub" onclick="text()">
+                 
+                
+           
+        </form>
+        </div>
+    </div>
+    <div id="tqbox"></div>
+
+    
+    
+    <footer id="fotr">
+        <div id="fut">Contact - starxhelp0@gmail.com<p>© All rights received</p></div>
+    </footer>
+
+    <script src="register.js"></script>
+</body>
+</html>

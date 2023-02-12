@@ -1,0 +1,66 @@
+#rg{
+    font-size: 22px;
+    text-align: center;
+}
+
+#sf{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    font-size: 20px;
+    margin: 50px;
+    background-image: url("files/bg6.png");
+    background-size: 200%;
+    color: rgb(10, 5, 5);
+}
+
+#ofom{
+    margin-left: 70px;
+}
+#sub{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sel{
+    font-size: 17px;
+}
+
+#tqbox{
+
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top:-30px;
+    color: rgb(54, 179, 9);
+    font-size: 20px;
+    
+}
+
+#rpr{
+    margin: 17px;
+}
+
+@media screen and (min-width:610px){
+
+    #rg{
+        text-align: center;
+    }
+    #sf{
+        margin-left:550px;
+    }
+    #tqbox{
+        margin-left: 550px;
+        color: rgb(13, 193, 13);
+    }
+
+}
