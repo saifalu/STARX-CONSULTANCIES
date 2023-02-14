@@ -173,7 +173,7 @@ body{
 @media screen and (max-width:600px){
     #fotr{
         background-color: black;
-        width: 470px;
+        width: 380px;
         height: 50px;
         text-align: center;
         color: white;
