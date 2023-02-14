@@ -61,7 +61,7 @@ body{
 }
 
 #three-boxes{
-    width: 300px;
+    width: 310px;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
