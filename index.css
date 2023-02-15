@@ -40,7 +40,6 @@ body{
 @media screen and (max-width:400px){
     .container{
         width:380px;
-        font-size:5px;
     }
     .element{
         font-size:10px;
@@ -53,7 +52,7 @@ body{
     width: 60px;
     color: white;
     margin: 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -173,6 +172,12 @@ body{
         flex-direction: column;
         margin: 0px;
     }
+  .element{
+    width: 60px;
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+}
 
 }
 
