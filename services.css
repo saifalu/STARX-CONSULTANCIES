@@ -1,6 +1,10 @@
 @media screen and(max-width:400px){
     .ht{
-        margin-left:90px;
+        margin-left:75px;
+    }
+    #bnft{
+        margin-left:10px;
+        margin-top:50px;
     }
 }
 .sl{
@@ -8,7 +12,7 @@
 }
 #bnft{
      font-size:30px;
-    text-align:center;
+     margin-left:50px;
 }
 
 .box1{
@@ -59,7 +63,7 @@
 
 .ht{
      font-size: 30px;
-     margin-left: 100px;
+     margin-left: 110px;
      margin-top:90px;
 }
 #bnl{
