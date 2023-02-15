@@ -1,3 +1,19 @@
+@media screen and (max-width:400px){
+    #ofom {
+    margin-left: 10px;
+}
+    #sf {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 20px;
+    margin: 50px 0px 0px 40px;
+    background-image: url(files/bg6.png);
+    background-size: 200%;
+    color: rgb(10, 5, 5);
+}
+}
+
 #rg{
     font-size: 22px;
     text-align: center;
